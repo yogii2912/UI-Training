@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Tasks</h2>
+            <ul id="task-list"></ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <h1>Task Details</h1>
+                <button class="home-button" onclick="goHome()">Home</button>
+            </div>
+            <div id="task-details"></div>
+            <textarea id="task-notes" placeholder="Add details here..."></textarea>
+            <button onclick="saveDetails()">Save Details</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
